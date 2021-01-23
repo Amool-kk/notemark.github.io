@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="h1">
+            <p>
+                <strong>NoteMark</strong>
+            </p>
+        </div>
+    </nav>
+    <hr>
+    <section>
+        <div class="makenote">
+            <input type="text" name="noteheading" class="text noteheading" placeholder="Enter Your Heading">
+            <input type="text" name="notetext" class="text notetext" placeholder="Enter Your Note">
+            <button type="button" class="btn">Add Note</button>
+        </div>
+    </section>
+    <article>
+        <div class="viewbox">
+            <div class="view">
+                <div class="heading items">
+                    <h5>this is hadding</h5>
+                </div>
+                <div class="noteshow items">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut quas, aut nulla doloremque eaque amet magnam repellendus voluptate illum dolorum obcaecati? Quis itaque nihil tempora autem aut ducimus vero natus temporibus eligendi, laborum, quam quisquam suscipit dignissimos soluta doloremque qui distinctio repudiandae incidunt commodi error saepe placeat reprehenderit rerum! Odit? <span class="readmore">this one try Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat necessitatibus omnis harum, officiis nesciunt ducimus, cum laudantium maxime in quos unde repudiandae reiciendis quibusdam at impedit voluptatibus culpa. Ullam, totam!</span> <strong class="more">Read More...</strong>
+                    </p>
+                    
+                </div>
+                <div class="button items">
+                    <button type="button" class="btn">Delete Note</button>
+                </div>
+            </div>
+        </div>
+    </article>
+    <script src="js/client.js"></script>
+    {{!-- <script>
+        const more = document.querySelector('.more');
+        const readmore = document.querySelector('.readmore');
+
+        more.addEventListener('click',()=>{
+            if(readmore.style.display === "inline"){
+                more.innerHTML = "Read More...";
+                readmore.style.display = "none";
+            }
+            else{
+                more.innerHTML = "Read less";
+                readmore.style.display = "inline";
+            }
+        })
+    </script> --}}
+</body>
+
+</html>

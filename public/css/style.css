@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    /* border: 1px solid black; */
+    height: 55px;
+    text-align: center;
+    font-size: 44px;
+    /* display: inline; */
+    width: 95vh;
+    margin: auto;
+}
+nav p{
+    display: inline-block;
+}
+section{
+    /* border: 1px solid red; */
+    height: 190px;
+    width: 60%;
+    margin: auto;
+}
+.makenote{
+    width: 95%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+}
+.makenote .text{
+    width: 90%;
+    padding: 10px 4px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.btn{
+    margin-top: 20px;
+    padding: 3px 8px;
+    font-size: 30px;
+    /* font-weight: 600; */
+    /* width: 100px; */
+    background-color: #3c4043;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    color: #8ab4f8;
+}
+.btn:hover{
+    background-color:#5f6368;
+}
+article{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    /* border: 1px solid blue; */
+    height: 90vh;
+    width: 60%;
+    margin: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.viewbox{
+    /* margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-columns: 56px;
+    grid-gap: 1rem;
+    grid-auto-rows: 200px; */
+    /* border: 1px solid orange; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    grid-auto-flow: dense;
+    margin: 1em auto;
+    padding: 0;
+    max-width: 100%;
+    font-size: 18px;
+}
+.items{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.viewbox .view{
+    border: 4px solid whitesmoke;
+    padding: 7px 10px;
+    border-radius: 6px;
+    margin: 6px;
+    position: relative;
+}
+.view .noteshow{
+    padding-bottom: 24px;
+    overflow: hidden;
+    text-align: justify;
+}
+.noteshow strong{
+    cursor: pointer;
+}
+.view .heading{
+    font-size: 18px;
+    display: inline-block;
+    border-bottom: 4px solid lightgray;
+    font-size: 25px;
+}
+.view .btn{
+    font-size: 15px;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 10px;
+}
+.readmore{
+    display: none;
+    text-align: justify;
+}
+.msg{
+    /* border: 1px solid red; */
+    width: 485px;
+}
